@@ -1,0 +1,16 @@
+/*border-collapose:colapse;*/
+
+table,td{
+    border: 2px solid #333;
+}
+tr:first-child{
+    background-color: pink;
+}
+
+tr:nth-child(2) td:nth-child(5),
+tr:nth-child(3) td:nth-child(5),
+tr:nth-child(2) td:nth-child(6),
+tr:nth-child(3) td:nth-child(6)
+{
+    background-color: rgb(245, 61, 61);
+}
